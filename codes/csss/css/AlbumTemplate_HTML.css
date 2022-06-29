@@ -7,9 +7,11 @@
 
 /* 상단 네비 하이드바 */
 .navbarHeader {
+    
     background-color: #212529;
     color: white;
 }
+
 
 /* h4 white text */
 .h4-text-white{
@@ -35,6 +37,7 @@ li {
 
 /* 헤더 어바웃 속성 */
 .div-header-about{
+    font-size: 30px;
     padding: 24px 12px;
     width: 360px;
     height: 242px;
@@ -49,14 +52,18 @@ li {
 
 /* 헤더 어바웃, 컨텍트 */
 .div-header-set {
-    margin: 0px 12px;
+    max-width: 1320px;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
 
 }
 
 /* 헤더 카메라 영역 */
 .div-camera-area{
+    font-size: 30px;
+
     padding: 8px 0px;
     background-color: #212529;
     
@@ -64,7 +71,8 @@ li {
 
 /* 헤더 카메라 앨범 + 메뉴*/
 .div-camera-album-menu{
-    margin: 0px 33px;
+    max-width: 1320px;
+    margin: auto;
     padding: 0px 12px;
     background-color: #212529;
     display: flex;
@@ -110,34 +118,40 @@ li {
 
 /* 메인 */
 .div-main-area{
+    max-width: 1320px;
     margin: 0px 37.5px;
+    margin: auto;
     padding: 48px 12px;
 }
 
 /* 메인텍스트영역 */
 .div-main-text-area{
     padding: 0px 12px;
+    text-align: center;
 }
 
 .h1-main-title{
+    font-size: 40px;
+    font-weight: 300;
     margin: 0px 0px 8px;
 }
 
 .p-main-hide{
     margin: 0px 0px 16px;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 .p-main-button{
     margin: 0px 0px 16px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .a-main-button1{
     margin: 8px 0px;
     padding: 6px 12px;
+    text-decoration: none;
     color: aliceblue;
     background-color: #0d6efd;
     border: 1px solid #0d6efd;
@@ -147,9 +161,140 @@ li {
 .a-main-button2{
     margin: 8px 0px;
     padding: 6px 12px;
+    text-decoration: none;
     color: aliceblue;
     background-color: #6c757d;
     border: 1px solid #6c757d;
     border-radius: 7px;
 }
 
+/* 썸네일영역 및 백그라운드 */
+.div-thumbnail-area{
+
+    padding: 48px 0px;
+    background-color: rgba(253, 251, 251, 0.993);
+    /* box-sizing: border-box; */
+}
+
+/* 썸네일 영역 및 컨테이너 */
+.div-thumbnail-container{
+    /* max-width: auto; */
+    margin: 0px 27.5px;
+    padding: 0px 12px;
+}
+
+/* 썸네일 아이템 정렬 */
+.div-thumbnail-row{
+    max-width: 1320px;
+    /* margin: -16px -0px; */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* --bs-bg-opacity: 1; */
+}
+
+/* 썸네일 한셀 영역 */
+.div-thumbnail-col{
+    margin: 16px 0px 0px 0px;
+    padding: 0px 8px;
+    /* border-radius: 20px; */
+ 
+}
+
+/* 썸네일 + 바디 영역 */
+.div-thumbnail-card {
+    border-radius: 12px;
+    width: 418px;
+    height: 380px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* 썸네일 이미지영역 */
+.svg-thumbnail{
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* 썸네일 바디영역 */
+.div-thumbnail-body{
+    padding: 16px;
+}
+
+/* 썸네일 바디 텍스트 */
+.p-thumbnail-text{
+    margin: 0px 0px 16px;
+}
+
+/* 썸네일 바디 하단 세트 */
+.div-thumbnail-body-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 썸네일 바디 하단 버튼세트 */
+.div-thumbnail-buttonset{
+    /* border-radius: 0.375em; */
+    /* position: relative; */
+    display: inline-flex;
+    /* vertical-align: middle; */
+
+}
+
+/* 썸네일 바디 하단 버튼1 */
+.button-thumbnail-body1{
+    border-radius: 0.375em;
+    border: 1px solid gray;
+    padding: 4px 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+/* 썸네일 바디 하단 버튼2 */
+.button-thumbnail-body2{
+    border-radius: 0.375em;
+    border: 1px solid gray;
+    border-left: none;
+    padding: 4px 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* 썸네일 바디 하단 시간 */
+.small-thumbnail-time{
+    font-size: 12px;
+    color: gray;
+}
+
+/* 푸터 영역 */
+.footer-area{
+    text-align: left;
+    align-items: center;
+    padding: 48px 0px;
+}
+
+/* 푸터 컨테이너 영역*/
+.div-footer-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 12px;
+}
+
+/* 푸터 url */
+.p-footer-url{
+    text-align: right;
+    color: #0d6efd;
+    text-decoration: underline;
+    margin: 0px 0px 4px;
+}
+
+/* 푸터 toptext */
+.p-pooter-toptext{
+    margin: 0px 0px 4px;
+}
