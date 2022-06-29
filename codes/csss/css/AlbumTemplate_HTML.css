@@ -274,15 +274,15 @@ li {
 
 /* 푸터 영역 */
 .footer-area{
+    width: 1320px;
     text-align: left;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
     padding: 48px 0px;
 }
 
 /* 푸터 컨테이너 영역*/
 .div-footer-container{
-    margin-right: auto;
-    margin-left: auto;
     padding: 0px 12px;
 }
 
