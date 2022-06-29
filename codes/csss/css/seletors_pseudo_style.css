@@ -21,6 +21,7 @@ h3:hover {
     background-color: gainsboro;
     margin: 5px;
 }
+/* border : 사이즈 디자인 색상 */
 button {
     font-size: 40px;
     border: 1px solid red;
