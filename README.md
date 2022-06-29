@@ -7,4 +7,4 @@
 <!-- table td -->
 |category|title|code|reference|
 |--|--|--|--|  
-| beginner | html tag | [beginner_html](./cases/beginner_html_site_styled.html) | [MDM HTML]https://developer.mozilla.org/ko/docs/Web/HTML |
+| beginner | html tag | [beginner_html](./cases/beginner_html_site_styled.html) | [MDM HTML](https://developer.mozilla.org/ko/docs/Web/HTML) |
