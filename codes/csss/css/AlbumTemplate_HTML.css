@@ -1,0 +1,155 @@
+/* 전체 폰트 */
+* {
+    font-size: px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 상단 네비 하이드바 */
+.navbarHeader {
+    background-color: #212529;
+    color: white;
+}
+
+/* h4 white text */
+.h4-text-white{
+    margin: 0px 0px 8px;
+}
+
+/* 헤더 p텍스트 하이드 */
+.p-text-mute{
+    margin: 0px 0px 16px;
+    visibility: hidden;
+}
+
+/* 헤더 콘텍트 리스트 링크제거 */
+li > a{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+/* 헤더 콘텍트 리스트 아이콘 */
+li {
+    color: #212529;
+}
+
+/* 헤더 어바웃 속성 */
+.div-header-about{
+    padding: 24px 12px;
+    width: 360px;
+    height: 242px;
+}
+
+/* 헤더 컨텍트 속성 */
+.div-header-contact{
+    padding: 24px 12px;
+    width: 180px;
+    height: 242px;
+}
+
+/* 헤더 어바웃, 컨텍트 */
+.div-header-set {
+    margin: 0px 12px;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+
+/* 헤더 카메라 영역 */
+.div-camera-area{
+    padding: 8px 0px;
+    background-color: #212529;
+    
+}
+
+/* 헤더 카메라 앨범 + 메뉴*/
+.div-camera-album-menu{
+    margin: 0px 33px;
+    padding: 0px 12px;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 헤더 카메라 앨범 */
+.div-camera-album{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.svg-header-camera{
+    margin: 0px 8px 0px 0px;
+}
+
+/* 헤더 메뉴버튼 영역 */
+.header-button{
+    border:  1px solid gray;
+    padding: 4px 12px;
+    width: 56px;
+    height: 42px;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+/* 헤더 메뉴버튼 메뉴 */
+.header-button-munu{
+    width: 30px;
+    height: 30px;
+}
+
+.header-button-munu:hover
+
+/* 메인섹션 */
+.section-main-area{
+    margin: 0px 37.5px;
+    padding: 48px 12px;
+}
+
+/* 메인 */
+.div-main-area{
+    margin: 0px 37.5px;
+    padding: 48px 12px;
+}
+
+/* 메인텍스트영역 */
+.div-main-text-area{
+    padding: 0px 12px;
+}
+
+.h1-main-title{
+    margin: 0px 0px 8px;
+}
+
+.p-main-hide{
+    margin: 0px 0px 16px;
+}
+
+.p-main-button{
+    margin: 0px 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.a-main-button1{
+    margin: 8px 0px;
+    padding: 6px 12px;
+    color: aliceblue;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    border-radius: 7px;
+}
+
+.a-main-button2{
+    margin: 8px 0px;
+    padding: 6px 12px;
+    color: aliceblue;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+    border-radius: 7px;
+}
+
