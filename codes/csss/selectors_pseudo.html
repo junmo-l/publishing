@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors_pesudo</title>
+    <link rel="stylesheet" href="./css/seletors_pseudo_style.css">
+</head>
+<body>
+    <!-- span 같은 컨텐츠안에서 특정 효과를 주기위해 사용 -->
+    <button>Round <span>span Effect</span><div>div effect</div></button>
+    <div>
+        <h2>
+        <span>span first</span>
+        <span class="span-second">span second</span>
+        <span class="span-third">span third</span>
+        <span class="span-fourth">span fourth</span>
+        </h2>
+    </div>
+    <div class="parents">
+        <h3>Start Parents</h3>
+        <div>
+            <h3>Child one</h3>
+        </div>
+        <div class="childtwo">
+            <h3>Child two</h3>
+            <div>Grandchild two-one</div>
+            <div>Grandchild two-two</div>
+        </div>
+        <div>
+            <h3 class="childthree">Child three</h3>
+            <div>Grandchild three-one</div>
+            <div>Grandchild three-two</div>
+        </div>
+        <h3>End Parents</h3>
+    </div>
+</body>
+</html>

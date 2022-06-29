@@ -1,0 +1,30 @@
+/* 컨텐츠단위 */
+.div1 {
+    font-size: 30px;
+    color: aqua;
+
+}
+/* 블록단위 */
+.div3 {
+    background-color: yellow;
+    margin: 10px;
+}
+.div4 {
+    font-size: 30px;
+    color: aqua;
+}
+/* 공백없이 태그 입력시 속성적용 */
+.div1.div3 {
+    border: 2px solid gray;
+}
+h3 {
+    background-color: white;
+}
+/* ' > '을 주면 별개의 태그로 인식, 각각의 자녀에게 속성적용 본인제외 */
+/* '공백'을 주면 별개의 태그로 인식, 각각의 자손에게 속성적용 본인제외 */
+.parents > .childtwo {
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+}

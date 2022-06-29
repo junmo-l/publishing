@@ -1,0 +1,15 @@
+h3 {
+    background-color: white;
+}
+/* ' > '을 주면 별개의 태그로 인식, 각각의 자녀에게 속성적용 본인제외 */
+/* '공백'을 주면 별개의 태그로 인식, 각각의 자손에게 속성적용 본인제외 */
+/* .parents > .childtwo { */
+/* ' ~ ' siblings 하위태그의 기준을 지정해서 태그지정  */
+/* ' + ' siblings 하위태그의 인접한 태그연결  */
+    /* .parents > h3 + .childtwo { */
+    .parents > .childtwo > h3 + div  {
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+}

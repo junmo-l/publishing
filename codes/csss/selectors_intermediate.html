@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors_intermediate</title>
+    <link rel="stylesheet" href="./css/selectors_intermediate.css">
+</head>
+<body>
+    <div class="parents">
+        <h3>Parents</h3>
+        <div>
+            <h3>Child one</h3>
+        </div>
+        <div class="childtwo">
+            <h3>Child two</h3>
+            <div>Grandchild two-one</div>
+
+            <div>Grandchild two-two</div>
+        </div>
+        <div>
+            <h3 class="childthree">Child three</h3>
+            <div>Grandchild three-one</div>
+            <div>Grandchild three-two</div>
+        </div>
+    </div>
+    <!-- Classes selector -->
+    <h2>Classes selector</h2>
+    <!-- 기존에 적용된 스타일을 재활용 가능 -->
+    <div class="div4">Div Four</div>
+    <div class="div1 div3">Div Four using Others</div>
+    <div class="div1">Classes One</div>
+    <div class="div2">Classes Two</div>
+    <div class="div3">Classes Three</div>
+</body>
+</html>

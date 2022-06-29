@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts</title>
+    <!-- 선언(Declaration) p 어디에(selector) {속성(property):속성값(property value);}  -->
+    <!-- div로 구역 마진/보더/컨텍스트 -->
+    <style>
+        /* 구글폰트 > select this style > 스타일에 삽입 @import / CSS */
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+        * {
+            font-family: 'Nanum Pen Script', cursive;
+            color: orange;
+        }
+
+        h2 {
+            color: yellow;
+            background-color: red;
+        }
+
+        h1 {
+            margin-left: 40px;
+            margin-top: 40px;   
+            margin-right: 40px;
+            margin-bottom: 40px;
+            
+            border-style: double;
+            border-color: aqua;
+            border-top-width: 2px;
+            border-right-width: 2px;
+            border-left-width: 2px;
+            border-bottom-width: 2px;
+
+            width: 200px;
+            text-align: center;
+            font-weight: 700px;
+            text-decoration: underline;
+            /* text-decoration: line-through; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ctrl + / 주석처리(해킹에 주의) -->
+    <h1>H1 text size</h1>
+    <h2>H2 text size</h2>
+    <!--block type(라인 하나를 차지하는 태그)-->
+    <hr /><br>
+    <!--셀프클로징태그 <br>은 쓰이지 않음 <div>사용 -->
+    <h3>H3 text size</h3>
+    <h4>H4 text size</h4>
+    <h5>H5</h5>
+    <h6>Start H6 <h3>inline</h3> end H6</h6>
+    <br>
+    <hr /><br>
+    <button>First Btn</button> <button>Second Btn</button>
+    <!--inline type(라인 하나에 여러가지 태그)-->
+
+    <div>
+        <a href="../index.html">go index</a>
+    </div>
+</body>
+
+</html>

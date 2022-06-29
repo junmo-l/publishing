@@ -1,0 +1,42 @@
+/* css파일은 웹에서 html로 인식을 못하기 때문에 태그가 의미가없음
+   class는 여러 페이지에서 사용하기 유용함 */
+h3 {
+    background-color: lightcoral;
+}
+/* 마우스 오버시 반응하는 속성 */
+h3:hover {
+    background-color: blueviolet;
+}
+/* ' > '을 주면 별개의 태그로 인식, 각각의 자녀에게 속성적용 본인제외 */
+/* '공백'을 주면 별개의 태그로 인식, 각각의 자손에게 속성적용 본인제외 */
+/* .parents > .childtwo { */
+/* ' ~ ' siblings 하위태그의 기준을 지정해서 태그지정  */
+/* ' + ' siblings 하위태그의 인접한 태그연결  */
+/* .parents > h3 + .childtwo { */
+/* inline-block 두가지의 속성을 두개 다 가짐 weidth, height, margin, padding태그 사용가능 */
+
+    .parents > .childtwo > h3 + div  {
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+}
+button {
+    font-size: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+span {
+    color: red;
+    margin: 5px;
+    background-color: lightblue;
+}
+hover q
+/* 컨텐츠가 사라짐 (영역이 없음) */
+.span-second:hover {
+    display: none;
+}
+/* 컨텐츠가 숨겨짐 (영역은 있음) */
+.span-third:hover {
+    visibility: hidden;
+}

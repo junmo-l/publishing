@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <!-- 링크폰트 -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <style>
+    /* 공통폰트 (A, B=A가 안될 시 B*/
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        html {
+            background-color: #00539F;
+        }
+        body {
+            background-color: #FF9500;
+            margin: 0px 30px 30px;
+            border: 5px black solid;
+            padding: 0px 20px 20px;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center; 
+            color: #00539F;
+            text-shadow: 3px 3px 1px black;
+        }
+        /* 성격바꾸기 display / bolck을 주고 margin으로 조절가능*/
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        /* individully tag 각각의 태그에 속성 부여 */
+        /* tags selector  , 로 여러태그에 같은 속성 부여*/
+        /* p, li {
+            line-height: 30px;
+        } */
+         .lineheight {
+          line-height: 30px;
+          color: aqua;
+         }
+    </style>  
+  </head>
+  <body>
+    <h1>Mozilla is cool</h1>
+    <!-- 링크 이미지 삽입 : 이미지 검사 src확인 web -> url + src주소(파일경로) 합치기 -->
+    <img src="https://mdn.github.io/beginner-html-site-styled/images/firefox-icon.png
+    " alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+    <p class="lineheight">At Mozilla, we’re a global community of</p>
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li class="lineheight">technologists</li>
+      <li class="lineheight">thinkers</li >
+      <li class="lineheight">builders</li>
+    </ul>
+
+    <p class="lineheight">working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+    <p class="lineheight">Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+  </body>
+</html>
