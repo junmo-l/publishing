@@ -138,6 +138,7 @@ li {
 }
 
 .p-main-hide{
+    color: gray;
     width: 600px;
     margin-right: auto;
     margin-left: auto;
@@ -254,25 +255,30 @@ li {
 
 /* 썸네일 바디 하단 버튼1 */
 .button-thumbnail-body1{
+    color: gray;
     border-radius: 0.375em;
     border: 1px solid gray;
-    padding: 4px 8px;
+    padding: 7px 10px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    background-color: white;
 }
 /* 썸네일 바디 하단 버튼2 */
 .button-thumbnail-body2{
+    color: gray;
     border-radius: 0.375em;
     border: 1px solid gray;
     border-left: none;
-    padding: 4px 8px;
+    padding: 7px 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    background-color: white;
+
 }
 
 /* 썸네일 바디 하단 시간 */
 .small-thumbnail-time{
-    font-size: 12px;
+    font-size: 15px;
     color: gray;
 }
 
@@ -287,6 +293,8 @@ li {
 
 /* 푸터 컨테이너 영역*/
 .div-footer-container{
+    font-size: 15px;
+    color: gray;
     padding: 0px 12px;
 }
 
