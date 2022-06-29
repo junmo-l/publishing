@@ -7,7 +7,6 @@
 
 /* 상단 네비 하이드바 */
 .navbarHeader {
-    
     background-color: #212529;
     color: white;
 }
@@ -32,6 +31,7 @@ li > a{
 
 /* 헤더 콘텍트 리스트 아이콘 */
 li {
+    font-size: 18px;
     color: #212529;
 }
 
@@ -45,6 +45,7 @@ li {
 
 /* 헤더 컨텍트 속성 */
 .div-header-contact{
+    font-size: 25px;
     padding: 24px 12px;
     width: 180px;
     height: 242px;
@@ -137,7 +138,10 @@ li {
 }
 
 .p-main-hide{
-    margin: 0px 0px 16px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
     font-size: 1.25rem;
     font-weight: 300;
 }
